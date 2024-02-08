@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Switch pages every minute
     setInterval(function() {
-        currentPage = currentPage === 1 ? 2 : 2; // Alterar para 1
+        currentPage = currentPage === 1 ? 2 : 1; // Alterar para 1
         showPage(currentPage);
-    }, 500);
+    }, 1000);
 
     function showPage(pageNumber) {
         // Hide all pages
