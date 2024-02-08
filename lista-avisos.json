@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "titulo": "Aula de EngSoft 2 Cancelada",
+      "texto": "Prezados(as) estou tendo uma reunião de emergência junto com a coordenador do curso.",
+      "professor": "Prof. Arcenio"
+    },
+    {
+      "id": 2,
+      "titulo": "Início do CT de portas abertas",
+      "texto": "Texto do aviso 2",
+      "professor": "Prof. Ciclano"
+    },
+    {
+      "id": 3,
+      "titulo": "Aberto Edital PaEPE 2024/1",
+      "texto": "Texto do aviso 3",
+      "professor": "Prof. Beltrano"
+    },
+    {
+      "id": 4,
+      "titulo": "Aviso 4",
+      "texto": "Texto do aviso 4",
+      "professor": "Prof. Fulano"
+    },
+    {
+      "id": 5,
+      "titulo": "Aviso 5",
+      "texto": "Texto do aviso 5",
+      "professor": "Prof. Ciclano"
+    },
+    {
+      "id": 6,
+      "titulo": "Aviso 6",
+      "texto": "Texto do aviso 6",
+      "professor": "Prof. Beltrano"
+    },
+    {
+      "id": 7,
+      "titulo": "Aviso 7",
+      "texto": "Texto do aviso 7",
+      "professor": "Prof. Fulano"
+    },
+    {
+      "id": 8,
+      "titulo": "Aviso 8",
+      "texto": "Texto do aviso 8",
+      "professor": "Prof. Ciclano"
+    },
+    {
+      "id": 9,
+      "titulo": "Aviso 9",
+      "texto": "Texto do aviso 9",
+      "professor": "Prof. Beltrano"
+    },
+    {
+      "id": 10,
+      "titulo": "Aviso 10",
+      "texto": "Texto do aviso 10",
+      "professor": "Prof. Fulano"
+    }
+]
+  
