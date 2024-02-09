@@ -1,3 +1,5 @@
+
+// Alternancia entre tela de horários e tela de avisos.
 document.addEventListener("DOMContentLoaded", function() {
     // Initial setup
     let currentPage = 2;
@@ -5,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Switch pages every minute
     setInterval(function() {
-        currentPage = currentPage === 1 ? 2 : 1; // Alterar para 1
+        currentPage = currentPage === 1 ? 2 : 2; // Alterar para 1
         showPage(currentPage);
     }, 1000);
 
@@ -22,11 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-/* Fazemos uma solicitação à API utilizando fetch.
-*  Extraímos os cinco primeiros avisos da lista de avisos retornados pela API.
-*  Apresentamos o título, texto e professor do primeiro aviso na div aviso-apresentado.
-*  Apresentamos os títulos dos outros quatro avisos na div lista-avisos.
-*/
+// Busca 5 avisos da api, apresenta o conteúdo do primeiro aviso e
+// apresenta apenas o título dos outros 4 na barra lateral.
 document.addEventListener('DOMContentLoaded', function() {
     fetch('lista-avisos.json')
         .then(response => response.json())
@@ -52,10 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Ocorreu um erro ao buscar dados da API:', error));
 });
 
-
-
-/***** Adicionarndo conteúdo à página de avisos ******/
-// Function to update the current date and time
+// Busca e atualiza a cada 5s a data e hora na tela.
 function updateCurrentDate() {
     // Create a new Date object for the current date and time
     var currentDate = new Date();
